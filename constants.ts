@@ -1,6 +1,7 @@
 import { RPMFormData } from './types';
 
 export const SUBJECTS = [
+  "Pendidikan Agama Islam",
   "Pendidikan Pancasila",
   "Bahasa Indonesia",
   "Matematika",
