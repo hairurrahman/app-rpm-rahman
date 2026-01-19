@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { RPMFormData } from "../types";
 
 const getAIClient = () => {
-  const apiKey = const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error("API Key not found in environment variables");
   }
